@@ -1,6 +1,19 @@
 # datacachesim
 Data Cache Simulator for a computer hardware course
 
+This program simulates a datacache using a LRU (least recently used) replacement algorithm and a write-back and write-allocate policy.
+
+ASSUMPTIONS:
+
+1)   Number of sets <= 8192
+
+2)   Associativity Level <= 8
+
+3)   Number of sets and line size = 2^x for some integer btw 0 and 13
+
+4)   Line size >= 8 bytes
+
+5)   Format and numbers specified in format and data input are valid
 
 COMPILATION/ CONFIGURATION STEPS:
 
@@ -17,8 +30,8 @@ STEP 2: Compile datacache.cpp using version c++11 or greater
 Example in Unix: g++ -std=c++11 datacache.cpp -o datacache 
   
 STEP 3:Run executable and enter in reads/writes in following format: 
-  
-  <R|W>:<SET_SIZE>:<HEX ADDRESS>
+  access type (read or write):reference size in bytes:
+  <R|W>:<REFERENCE_SIZE>:<HEX_ADDRESS>
 
   
   OPTIONAL:
