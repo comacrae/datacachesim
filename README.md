@@ -3,7 +3,6 @@ Data Cache Simulator for a computer hardware course
 
 
 STEPS:
-
 1) Alter the trace.config file to configure the cache settings using the following format:
 
 Number of sets: X
