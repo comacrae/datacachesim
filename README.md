@@ -17,12 +17,18 @@ STEP 2: Compile datacache.cpp using version c++11 or greater
 Example in Unix: g++ -std=c++11 datacache.cpp -o datacache 
   
 STEP 3:Run executable and enter in reads/writes in following format: 
+  
   <R|W>:<SET_SIZE>:<HEX ADDRESS>
 
+  
   OPTIONAL:
+  
   I/O redirect an inputfile in the format:
+  
   <R|W>:<SET_SIZE>:<HEX ADDRESS>
+  
   <R|W>:<SET_SIZE>:<HEX ADDRESS>
+  
   <R|W>:<SET_SIZE>:<HEX ADDRESS>
     
   refer to trace.dat for an example file 
