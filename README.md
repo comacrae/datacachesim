@@ -39,7 +39,9 @@ STEP 3:Run executable and enter in reads/writes in following format:
   I/O redirect an inputfile in the format:
   
  <R|W>:<REFERENCE_SIZE>:<HEX_ADDRESS>
+ 
  <R|W>:<REFERENCE_SIZE>:<HEX_ADDRESS>
+ 
  <R|W>:<REFERENCE_SIZE>:<HEX_ADDRESS>
   
 
