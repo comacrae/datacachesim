@@ -1,7 +1,5 @@
 /******************************************************
 *	Name: Colin MacRae
-*	Class: CDA3100
-*	Assignment 9 : Impelementing Data Cache Simulator 
 *	Compile: "g++ -std=c++11 -o datacache datacache.cpp"
 *	NOTE: ASSUMES trace.config AND trace.dat FILES 
 *	EXIST IN SAME DIRECTORY AS EXECUTABLE AND THAT
