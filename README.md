@@ -3,12 +3,21 @@ Data Cache Simulator for a computer hardware course
 
 
 STEPS:
-1) Alter the trace.config file to configure the cache settings using the following format:
+
+
+STEP 1: Alter the trace.config file to configure the cache settings using the following format:
+  
   Number of sets: X
+  
   Set size: X
-  Line size: X
-2) Compile datacache.cpp using version c++11 or greater
-3)Run executable and enter in reads/writes in following format: 
+ 
+ Line size: X
+  
+STEP 2: Compile datacache.cpp using version c++11 or greater
+
+Example in Unix: g++ -std=c++11 datacache.cpp -o datacache 
+  
+STEP 3:Run executable and enter in reads/writes in following format: 
   <R|W>:<SET_SIZE>:<HEX ADDRESS>
 
   OPTIONAL:
