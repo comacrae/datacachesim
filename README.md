@@ -1,4 +1,15 @@
 # datacachesim
 Data Cache Simulator for a computer hardware course
-Use the trace.config file to alter the cache using the following format:
+
+
+STEPS:
+
+1) Alter the trace.config file to configure the cache settings using the following format:
+Number of sets: X
+Set size: X
+Line size: X
+2) Compile datacache.cpp using version c++11 or greater
+3) Run executable and enter in reads/writes in following format:
+4) 
+
 
